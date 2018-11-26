@@ -1,0 +1,25 @@
+================================= Hohlov Victor 332CC ============================
+=============================== Paradigme de Programare ==========================
+======================================= Tema 3 ===================================
+
+Reprezentarea problemei:
+	Nod Sursa:
+		source(NodS, Out, ColS), unde:
+			->NodS - numele nodului sursa
+			->Out - Latimea nodului sursa(cate unitati poate trimite)
+			->ColS - Lista de noduri adiacente ce il contin pe NodS
+
+	
+	Nod Receptor:
+		receiv(NodR, In, ColR), unde:
+			->NodR - numele nodului receptor
+			->In - Latimea nodului receptor(cate unitati poate primi)
+			->ColR - Lista de noduri adiacente ce il contin pe NodR
+
+	Nod Transmitator:
+		trans(NodT, In, Out, ColT), unde:
+			>NodT - numele nodului transmitator
+			->In - Latimea nodului In(cate unitati poate primi)
+			->Out - Latimea nodului Out(cate unitati poate trimite)
+			->ColT - Lista de noduri adiacente ce il contin pe NodT
+
